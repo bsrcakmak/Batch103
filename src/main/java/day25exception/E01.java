@@ -1,5 +1,7 @@
 package day25exception;
 
+    // ==> 1. Exception= ArithmeticException
+
 public class E01 {
 
     /*

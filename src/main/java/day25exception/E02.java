@@ -2,6 +2,7 @@ package day25exception;
 
 public class E02 {
 
+    // ==> 2. Exception= ArrayIndexOutOfBoundsException
     public static void main(String[] args) {
 
         String arr[] = {"Ali", "Can", "Veli", "Han"};

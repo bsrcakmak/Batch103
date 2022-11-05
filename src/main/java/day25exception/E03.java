@@ -2,6 +2,7 @@ package day25exception;
 
 public class E03 {
 
+    // ==> 3. Exception= NullPointerException
     public static void main(String[] args) {
 
         String str= "Ali";

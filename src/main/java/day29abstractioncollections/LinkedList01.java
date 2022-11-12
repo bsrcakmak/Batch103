@@ -89,24 +89,25 @@ public class LinkedList01 {
         // visitors.add(2,"Angelina Julie");//normalde bu kod index kullanmiyor.
         // Java developer'lar rahat etsinler diye "buraya yazilan index'de nereye koymasini gerektigini gosteriyor.
 
-        System.out.println(visitors);
+        System.out.println(visitors); //[Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
 
 
         // LinkedList'ler ekleme vesilme islemlerinde cok basarili olduklarindan ekleme ve silme ile alakali cok fazla method icerir.
         visitors.addLast("Ajda Pekkan");
         visitors.addFirst("Cuneyt Arkin");
-        System.out.println(visitors);
+        System.out.println(visitors); //[Cuneyt Arkin, Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks, Ajda Pekkan]
 
         visitors.removeLast();
-        System.out.println(visitors);
+        System.out.println(visitors); //[Cuneyt Arkin, Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
+
         visitors.removeFirst();
-        System.out.println(visitors);
+        System.out.println(visitors); //[Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
 
         visitors.removeFirstOccurrence("Tom Hanks");  // Bu ismin ilk gorunumunu sil
-        System.out.println(visitors);
+        System.out.println(visitors); //[Tom, Hanks, Angelina Julie, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
 
         visitors.removeLastOccurrence("Brad Pitt");  // Bu ismin son gorunumunu siler
-        System.out.println(visitors);
+        System.out.println(visitors); //[Tom, Hanks, Angelina Julie, Brad, Pitt, Brad Pitt, Tom Hanks]
 
 
         /*
@@ -117,13 +118,14 @@ public class LinkedList01 {
            NoSuchElementException – if this list is empty (Eger List bossa)
          */
         String firstEl = visitors.pop(); // Cut + Paste ===> Ctrl + x
-        System.out.println(firstEl); // Listedeki ilk elemani verir
+        System.out.println(firstEl); // Listedeki ilk elemani verir  // Tom
         System.out.println(visitors); // Burda da pop ile verdigi elemani silmis olur.
+                                      // [Hanks, Angelina Julie, Brad, Pitt, Brad Pitt, Tom Hanks]
 
 
         LinkedList<String> myList = new LinkedList<>();  // Bos LinkedList
 
-        myList.pop();  // NoSuchElementException atti cunku LinkedList bos
+        // myList.pop();  // NoSuchElementException atti cunku LinkedList bos
 
 
     }

@@ -3,7 +3,7 @@ package day24statickeywordencapsulation;
 
 // Encapsulation: "Data Hiding(Gizlemek)" demektir.
 
-// Data'yi nicin giuzlersiniz? Data'yi dis etkenklerden korumak icin.
+// Data'yi nicin gizlersiniz? Data'yi dis etkenklerden korumak icin.
 
 // Data'yi nasil gizlersin? Access Modifier'ini "private" yaparak gizlerim.
 

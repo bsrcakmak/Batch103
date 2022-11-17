@@ -1,4 +1,4 @@
-package day29abstractioncollections;
+package day24statickeywordencapsulation.day29abstractioncollections;
 
 public interface Engine extends Vehicle{
 

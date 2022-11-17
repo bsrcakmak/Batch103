@@ -13,7 +13,7 @@ public class HashSet01 {
          Java hizli olsun diye rastgele koymasini ister, yani HashSet cok hizli calisir.
 
          HashSet'ler nerelerde kullanilir?
-             i)tekrarsiz eleanlarda kullanilir
+             i)tekrarsiz elemanlarda kullanilir
             ii)siralama onemli degilse kullanilir
            iii)hiz onemliyse kullanilir
 

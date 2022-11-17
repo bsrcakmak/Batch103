@@ -5,7 +5,7 @@ package day25exception;
 public class E01 {
 
     /*
-       1) "Exception" (istisnai hata) Java'da kodlarimizi calistirirken
+       1) "Exception" (istisnai hata) Java'da kodlarimizi yazarken ve calistirirken
            meydana gelen beklenmedik durumlardir.
        2) Exception'lar ile calismanin iki yolu vardir;
            i) "try-catch" block kullanma ve exception olussa bile calismayi devam ettirme
@@ -13,15 +13,15 @@ public class E01 {
              (mesela yazdığımız kod gereği bir dosya üzerinden okuma yapmamız gerekiyor ise
              bu dosyamız eğer silinmiş ise java dosyayı bulamaz ve uygulamanın devam etmesi gerekmez)
        3) Eğer exception'ı handle etmez isek (sorunu halletmezsek) java çalışmayı durdurur.
-       4) try-catch kullanırken try kodunu bir yada birden fazla catch ile birlikte kullana biliriz.
+       4) try-catch kullanırken try kodunu bir yada birden fazla catch ile birlikte kullanabiliriz.
        5) try catch olmaksızın yanlız kullanılamaz.
        6) Eger yazmis oldugunuz herhangi bir kod satirinda problem olabilecegini dusunuyorsaniz try-catch blok icine koymaliisniz
        7) catch blok parantezi icerisine olmasi muhtemel exception class ismi yazilir.
        8) e.getmessage(),  methodunu kullanarak teknik mesajlar elde edebiliriz.
          ==> System.out.println(); burada yazmis oldugum mesajlar benim teknik olmayan aciklamalarimdir
-         ==> e.printStackTrace(); methodu Exception ile ilgili detaylica teknik mesaj verir. kod calismaya devam eder
+         ==> e.printStackTrace(); methodu Exception ile ilgili detaylica teknik mesaj verir, kod calismaya devam eder
          ==> System.err.println(); hata mesajini renkli olarak verir bu sayede cansolda diger mesajlardan ayırmak icin kullaniriz
-       9)Eger try body icindeki kod sorunusuz calisirsa catch blok devreye girmez.
+       9)Eger try body icindeki kod sorunusuz calisirsa catch block devreye girmez.
 
      */
     public static void main(String[] args) {

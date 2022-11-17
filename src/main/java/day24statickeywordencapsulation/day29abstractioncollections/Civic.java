@@ -1,4 +1,4 @@
-package day29abstractioncollections;
+package day24statickeywordencapsulation.day29abstractioncollections;
 
 /*
      Abstract methodlar sadece NE yapilacagini soyler (what to do),

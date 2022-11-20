@@ -17,7 +17,6 @@ public class HashMap02 {
         5) Java normalde HashCode'lari unique yapar ancak bazen trafik kazasi gibi farkli iki eleman icin ayni HashCode uretilabilir.
            Buna "Hash Collision" denir. Hash Collision meshur bir Java Development problemidir. Bu problemle karsilasildiginda developer'lar
            bu problemi cozmek icin kodlar yazarlar ama bu Core Java'nin konusu degildir.
-
      */
     public static void main(String[] args) {
 
@@ -26,12 +25,5 @@ public class HashMap02 {
         salaries.put("QA", 110000.00 );
         salaries.put("Dev", 130000.00 );
         salaries.put("SalesForce", 125000.00 );
-
-
-
-
-
     }
-
-
 }

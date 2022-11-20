@@ -21,7 +21,6 @@ public class Iterators01 {
 
         for (String w:myList){
             w+= "!";
-
         }
         System.out.println(myList); // [Z, K, A, J, M]
 
@@ -32,6 +31,5 @@ public class Iterators01 {
             itr.set(el + "!");
         }
         System.out.println(myList); // [Z!, K!, A!, J!, M!]
-
     }
 }

@@ -46,6 +46,5 @@ public class HashTable01 {
 
         int age = myStudents.get("Math").age;
         System.out.println(age);  // 21
-
     }
 }

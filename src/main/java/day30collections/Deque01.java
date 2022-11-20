@@ -32,19 +32,9 @@ public class Deque01 {
             ii) ClassCastException – if the class of the specified element prevents it from being added to this deque
            iii) NullPointerException – if the specified element is null and this deque does not permit null elements
             iv) IllegalArgumentException – if some property of the specified element prevents it from being added to this deque
-
          */
 
         furnitureTruck.push("Refrigerator");
         System.out.println(furnitureTruck); // [Refrigerator, Chair, Mirror, Sofa, Bed, Bed, Bed, Dining Table]
-
-
-
-
-
-
-
-
-
     }
 }

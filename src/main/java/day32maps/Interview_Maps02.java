@@ -27,6 +27,5 @@ public class Interview_Maps02 {
             }
         }
         System.out.println(gorunum); // {a=3, b=2, c=1}
-
     }
 }

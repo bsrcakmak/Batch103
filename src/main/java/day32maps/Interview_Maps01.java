@@ -33,6 +33,5 @@ public class Interview_Maps01 {
             }
         }
         System.out.println(gorunum);// { I=1, like=1, to=1, move=2, it=2 }
-
     }
 }

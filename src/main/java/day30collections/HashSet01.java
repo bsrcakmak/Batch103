@@ -19,8 +19,6 @@ public class HashSet01 {
 
          HashSet'ler index kullanmazlar, cunku siralama rastgele yapildigi icin index manali olmaz.
 
-
-
          */
 
         HashSet<String> emails= new HashSet<>();
@@ -41,18 +39,5 @@ public class HashSet01 {
         emails.add(null);
         emails.add(null);
         System.out.println(emails); // [null, Apple, Fig, Mango, Apricot, Orange]
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

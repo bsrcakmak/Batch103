@@ -21,7 +21,6 @@ public class TreeSet01 {
 
         HashSet'in hizindan, TreeSet'in siralamasindan faydalanir. Bu nedenle daha iyi bir yontemdir.
         Elemanlari eklerken HashSet'i, siralarken de TreeSet'i kullanir.
-
      */
     public static void main(String[] args) {
 
@@ -61,7 +60,5 @@ public class TreeSet01 {
 
         Long end2= LocalTime.now().toNanoOfDay(); // Yazdigimiz kodun ne kadar surede uygulandigini gormek icin kullandik.
         System.out.println(end2-end1);
-
-
     }
 }

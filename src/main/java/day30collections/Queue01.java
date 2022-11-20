@@ -10,8 +10,6 @@ public class Queue01 {
        Queue da elemanlar "insertion order" a gore dizilirler.
        Queue da peek(), poll(), element(), remove() gibi ilk elemani ilgilendiren bircok method vardir
        offer() method'u capasity kontrolu yapildiktan sonra eleman ekleme durumlarinda kullanilir.
-
-
      */
     public static void main(String[] args) {
 
@@ -48,9 +46,5 @@ public class Queue01 {
 
         wareHouse.offer("Potatoes"); // Kapasite uygunsa ekleme yapar.
         System.out.println(wareHouse);  // [Milk, Meat, Bread, Honey, Tomatoes, Potatoes]
-
-
-
-
     }
 }

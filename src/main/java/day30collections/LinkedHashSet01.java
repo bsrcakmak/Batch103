@@ -8,7 +8,6 @@ public class LinkedHashSet01 {
        LinkedHashSet'ler elemanlari ekleme sirasina(Insertion Order) gore yerlestirirler.
        LinkedHashSet elemanlari siralamada zaman harcadigi icin HashSet'lere gore daha yavas calisir.
        Siralama onemliyse zamani goze alip LinkedHashSet kullanilmali.
-
      */
 
     public static void main(String[] args) {
@@ -20,8 +19,5 @@ public class LinkedHashSet01 {
         emails.add("bde@gmail.com");
         emails.add("axy@gmail.com");
         System.out.println(emails); // [abc@gmail.com, bca@gmail.com, asc@gmail.com, bde@gmail.com, axy@gmail.com]
-
-
-
     }
 }

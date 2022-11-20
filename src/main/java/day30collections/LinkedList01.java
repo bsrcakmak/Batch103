@@ -70,7 +70,7 @@ public class LinkedList01 {
         System.out.println(students); // [Chris, *****, Mark, Tom, Jeremy, Hans]
 
 
-     //Interview Sorusu:
+     //      Interview Sorusu:
      // Example 2: List'teki 4 harften cok harf iceren isimleri siliniz.
      // Eleman sayisini azaltacagimiz icin i ye ihtiyacimiz var ,o yuzden for loop kullaniyoruz.
 
@@ -81,12 +81,5 @@ public class LinkedList01 {
        }
      }
      System.out.println(students); // [Mark, Tom, Hans]
-
-
-
-
-
-
-
     }
 }

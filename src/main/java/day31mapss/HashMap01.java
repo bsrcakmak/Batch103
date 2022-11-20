@@ -14,7 +14,6 @@ public class HashMap01 {
        7) HashMap'ler EntySet'leri herhangibir siralamaya tabi tutmaz, rastgele siralar
        8) Siralama ile vakit jaybetmedigi icin HashMap'ler cok hizli calisirlar.
        9) Collection'larda "[]" kullanilirken, Map'lerde "{}" kullanilir
-
      */
 
     public static void main(String[] args) {
@@ -39,12 +38,10 @@ public class HashMap01 {
         System.out.println(studentAges);
         // {null=66, Ayhan Isik=null, Sadri Alisik=null, Tom=21, Ajda=76, Brad=12, Cuneyt=75, Ali=88}
 
-
         // Map'den sadece key'ler nasil alinir?
         Set<String> keys = studentAges.keySet();
         System.out.println(keys);
         // [null, Ayhan Isik, Sadri Alisik, Tom, Ajda, Brad, Cuneyt, Ali]
-
 
         // Map'ten sadece value'lar nasil alinir?
         Collection<Integer> values = studentAges.values();
@@ -128,12 +125,5 @@ public class HashMap01 {
         for (Map.Entry<String ,Integer> w:entries){
             System.out.println(w);
         }
-
-
-
-
-
-
     }
-
 }

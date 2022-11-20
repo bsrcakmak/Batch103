@@ -2,7 +2,6 @@ package day30collections;
 
 import java.util.PriorityQueue;
 
-
      /*
          //PriorityQueue(oncelik) Java kendisine gore bir oncelik belirleyerek siralama yapar, biz soylemedigimiz surece.
          //Biz istersek siralamayi belirleyebiliriz
@@ -18,8 +17,5 @@ public class PriorityQueue01 {
         myQueue.add("G");
         myQueue.add("C");
         System.out.println(myQueue); // [A, C, B, G, E]
-
-
-
     }
 }

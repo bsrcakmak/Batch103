@@ -16,6 +16,5 @@ public class Interview {
      TreeMap'lerde key'ler icin "null" kullanılmaz.
      HashTable larda ikisi içinde null kullanılmaz.
 
-
      */
 }

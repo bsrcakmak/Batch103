@@ -1,19 +1,14 @@
-package atmproject;
+package project_atm;
 
-import javax.swing.plaf.PanelUI;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Account {
-
     private int accountNumber;  // hesap numarasi
     private int pinNumber; // sifre
-
     private double checkingBalance; // vadesiz hesap bakiyesi
     private double savingBalance; // vadeli hesap bakiyesi
-
     DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
-
     Scanner input = new Scanner(System.in);
 
     public int getAccountNumber() {
@@ -55,7 +50,6 @@ public class Account {
     public void setInput(Scanner input) {
         this.input = input;
     }
-
 
     // para cekme islemi  ==> paraCekmeIslemindenSonraKalanMiktar    // amount : miktar
     private double calculateCheckingBalanceAfterWithdraw(double amount){
@@ -104,9 +98,9 @@ public class Account {
         }
     }
 
-
     // para yatirma(checking): Musteri ile para yatirmak icin etkilesime gecelim.
     public void getCheckingDepozit(){
+
         displayCurrentAmount(checkingBalance);
         System.out.println("Yatirmak istediginiz miktari giriniz:");
         double amount = input.nextDouble();
@@ -121,9 +115,9 @@ public class Account {
         }
     }
 
-
     // Musteri ile para cekmek icin etkilesme gecelim: saving hesap
     public void getSavingWithdraw() {
+
         displayCurrentAmount(savingBalance);
         System.out.println("Cekmek istediginiz miktari giriniz:");
         double amount = input.nextDouble();
@@ -140,9 +134,9 @@ public class Account {
         }
     }
 
-
     // para yatirma(saving): Musteri ile para yatirmak icin etkilesime gecelim.
     public void getSavingDepozit(){
+
         displayCurrentAmount(savingBalance);
         System.out.println("Yatirmak istediginiz miktari giriniz:");
         double amount = input.nextDouble();
@@ -157,13 +151,8 @@ public class Account {
         }
     }
 
-
     // son bakiyeyi goster methodu
     public void displayCurrentAmount(double balance){
         System.out.println("Hesabinizda bulunan bakiye: " + moneyFormat.format(balance));
     }
-
-
-
-
 }

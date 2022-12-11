@@ -15,7 +15,6 @@ public class CarRunner {
         Car car3 = new Car();
         Car car4 = new Car();
 
-
         // static variable'lara objeleri kullanarak ulasmak mumkun ama tavsiye edilmez.
         System.out.println(car1.counter);  // 4
         // static variable'lara class ismi kullanarak ulasilmalidir.
@@ -30,8 +29,5 @@ public class CarRunner {
 
         System.out.println(Car.counter);
         System.out.println(car4.price);
-
-
-
     }
 }

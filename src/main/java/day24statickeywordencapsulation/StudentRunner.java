@@ -26,15 +26,5 @@ public class StudentRunner {
         System.out.println(std2.getStdId());  // TH202201
 
 
-
-
-
-
-
-
-
-
-
-
     }
 }

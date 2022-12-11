@@ -58,9 +58,7 @@ public class Variables01 {
             String non-primitive dir. Yani bir String olusturdugunuzda Java size bir suru method verir.
     */
 
-
     /*
-
             Primitive ile Non-Primitive lerin farki nedir?
             1) Non-Primitive data type'larında degerin yaninda method'lar vardir.
                Primitive data type'larinda ise sadece deger vardir, method yoktur.
@@ -72,9 +70,7 @@ public class Variables01 {
                Non-Primitive data type isimleri buyuk harfle baslar.
             4) Primitive data type'lar memoryde farkli buyuklukte yerler kullanır.
                Non-Primitive'lerin hepri memory'de ayni buyuklukte yer kullanirlar.
-
      */
-
 
     public byte price=12;
     public short populationOfVillage=23000;
@@ -96,19 +92,9 @@ public class Variables01 {
 
     public String name="Tom Hanks";
 
-
     // "main method" arabanın motoru gibidir, o çalışmadan hiçbirşey çalışmaz
 
     public static void main(String[] args) {
 
-
-
-
-
-
-
-
-
     }
-
 }

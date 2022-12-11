@@ -10,9 +10,7 @@ public class Scanner01 {
        Ali Mert Can
        123456789
          */
-
         Scanner input=new Scanner(System.in);
-
 
         // 1. Yontem:
 
@@ -34,13 +32,11 @@ public class Scanner01 {
         System.out.println(ilkiIsim+" "+ikinciIsim+" "+soyIsim);
         System.out.println(tc);
 
-
         /*
            next() ile nextLine() in farki nedir?
            next() methodu kullanicidan gelen String'in sadece ilk kelimesini alir.
            nextLine() methodu kullanicidan gelen String'in tamamini alir.
          */
-
 
 
         // 3. Yontem:
@@ -51,11 +47,5 @@ public class Scanner01 {
         System.out.println("Lutfen kimlik numaranizi giriniz");
         String kimlikNumarasi=input.next();
         System.out.println(kimlikNumarasi);
-
-
-
-
-
-
     }
 }

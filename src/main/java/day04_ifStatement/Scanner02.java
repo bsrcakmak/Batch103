@@ -13,10 +13,7 @@ public class Scanner02 {
                i) Toplama islemi     ii) Birlestirme islemi(Concatination)
                Java "+" sembolu gorunce once toplama yapmaya calısır,
                yapamazsa birlestirme islemi yapmaya calisir, o da olmazsa hata verir.
-
      */
-
-
 
     public static void main(String[] args) {
 
@@ -30,7 +27,6 @@ public class Scanner02 {
         System.out.println(""+name+surname);
 */
 
-
         // 2.Yontem;
         System.out.println("Tam isminizi giriniz");
         String tamIsim=input.nextLine();  // Ali Can
@@ -40,16 +36,5 @@ public class Scanner02 {
 
         char soyIsminIlkHarfi=tamIsim.split(" ")[1].charAt(0);
         System.out.println(soyIsminIlkHarfi);
-
-
-
-
-
-
-
-
-
-
-
     }
 }

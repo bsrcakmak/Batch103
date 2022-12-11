@@ -4,7 +4,6 @@ public class WrapperClass01 {
 
     public static void main(String[] args) {
 
-
      /*
          Note: Java primitive lere method'lar ekleyerek yeni bir yapi olusturdu
                bu yapiya "Wrapper Class" denir
@@ -18,7 +17,6 @@ public class WrapperClass01 {
                double    ==>     Double
                boolean   ==>     Boolean
                ** char      ==>  Character
-
       */
 
         byte primitiveByte=12;
@@ -54,9 +52,5 @@ public class WrapperClass01 {
             char primitiveW1= w1;
 
         //Note: Autoboxing ve Unboxing Java tarafindan otomatik olarak yapilir
-
-
     }
-
-
 }

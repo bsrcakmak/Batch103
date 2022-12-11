@@ -7,7 +7,6 @@ public class Scanner03 {
 
         // Kullnicidan bir dikdortgenin en ve boyunu alip alan ve cevresini hesaplayan kodu yaziniz
 
-
         Scanner input=new Scanner(System.in);
         System.out.println("Lütfen dikdortgenin en ve boy bilgisini giriniz");
 

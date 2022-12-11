@@ -17,20 +17,5 @@ public class Scanner02 {
         double sayi2= input.nextDouble();
 
         System.out.println("Girilen iki sayi toplami= "+(sayi1+sayi2));
-
-
-//        int a=5;
-//        double b=2;
-//        double sonuc=b;
-//        System.out.println(sonuc); // 2.0
-//
-//
-//        double x=5;
-//        int t=(int)x;
-
-
-
-
-
     }
 }

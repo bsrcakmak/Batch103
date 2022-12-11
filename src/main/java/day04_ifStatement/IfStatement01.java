@@ -25,15 +25,11 @@ public class IfStatement01 {
             true && true = true
             true && false = false
 
-
-
             && islemi mukemmeliyetcidir, true sonucunu alabilmek icin hersey true olmalidir
             Bir tane false varsa sonuc false demektir
          */
 
-
         // Example 3: Verilen bir sayi uc basamakli ise ekrana "Uc basamakli" yazdiriniz.
-
         int a=-123;
 
         a=Math.abs(a);
@@ -44,7 +40,6 @@ public class IfStatement01 {
 
 
         // Example 4: Verilen bir
-
         int s= -18;
 
         // "=" isareti atama operatorudur, matematikteki esittir anlamina gelmez
@@ -57,7 +52,6 @@ public class IfStatement01 {
 
 
         // Example 4: Verilen bir sayı
-
         int m= 3567;
          if (m<300 || m>1200){
             System.out.println("Harika sayi");
@@ -71,8 +65,6 @@ public class IfStatement01 {
 
            Not: || isleminde false alabilmek icin herseyin false olmasi gerekir.
                 || isleminde sadece bir tane true sonucu true yapmaya yeter
-
          */
-
     }
 }

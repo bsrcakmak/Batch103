@@ -17,11 +17,5 @@ public class MemoryKullanimi {
 
      Note: Class ==> Variable ==> Object
                      Method
-
-
-
-
      */
-
-
 }

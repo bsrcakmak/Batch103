@@ -7,7 +7,6 @@ public class TypeCasting01 {
 
     // Note:
 
-
     public static void main(String[] args) {
 
         //Auto widening;
@@ -31,7 +30,6 @@ public class TypeCasting01 {
         System.out.println(t);  //67 ==> Java ondalik sayiyi tam sayiya cevirirken yuvarlama islemi yapmaz
                                 //       Java ondalik sayiyi tam sayiya cevirirken ondalik kismini siler.
 
-
         int number=515;
         byte newNumber=(byte)number;
         System.out.println(newNumber); // 3 ==> (515 % 256=3) (byte ta toplam 256 sayı olduğu için ona böler kalanı verir)
@@ -40,12 +38,5 @@ public class TypeCasting01 {
         byte newNum=(byte)num;
         System.out.println(newNum); // -2 ==>
 
-
-
-
-
     }
-
-
-
 }

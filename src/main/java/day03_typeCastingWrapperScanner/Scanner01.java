@@ -8,7 +8,6 @@ public class Scanner01 {
     // Scanner kullanici ile etkileşim kurmamızı sağlar
     // Scanner bir Java class'idir, bu class'ı kullanabilmek icin "import" etmek gerekir
     // Scanner class'ı Java'nın util kutuphanesindedir
-
     public static void main(String[] args) {
 
         //Kullanicidan data almak icin yapilmasi gerekenler
@@ -23,18 +22,5 @@ public class Scanner01 {
 
         byte age = input.nextByte();
         System.out.println("Hey kullanici senin yasin " + age);
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

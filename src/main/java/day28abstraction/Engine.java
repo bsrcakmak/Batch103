@@ -31,7 +31,6 @@ public interface Engine {
 
      void tsi();
 
-
      // interface icine concrete method yazdik(default veya static keyword kullandik)
      // default keyword kullanarak interface'lerin icinde body'si olan methodlar uretebilirsiniz.
      // Asagidaki method "non-static method" dur

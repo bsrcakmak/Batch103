@@ -8,6 +8,7 @@ public abstract class Animal {
     //    2) access modifier ile return type arasina abstract yazilir
     // abstract method'lar abstrack class icinde olmalidir.
     // bunun icinde access modifier ile class ifadesinin arasina abstract yazilir
+
     public abstract void eat();
 
     // "abstract class" larda hem "abstract"(soyut) method,
@@ -17,7 +18,5 @@ public abstract class Animal {
     }
 
     public abstract void move();
-
-
 
 }

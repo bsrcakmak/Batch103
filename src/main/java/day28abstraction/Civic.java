@@ -4,15 +4,12 @@ public class Civic implements Engine, Ac, Hood{
 
     // Bir Class'i bir interface'in child'i yapmak icin "implements" kullaniriz.
 
-
     @Override
     public void digital() {
-
     }
 
     @Override
-    public void climate() {
-
+    public void climate(){
     }
 
     @Override

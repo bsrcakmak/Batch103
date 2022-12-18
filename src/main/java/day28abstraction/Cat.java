@@ -7,8 +7,6 @@ public class Cat extends Mammal{
         "child class" o method'u "override" edip kullanmak zorundadir.
         Bu yuzden herhangi bir fonksiyonu "child class" icin mecburi yapmak isterseniz
         o method'u abstract yapmalisiniz
-
-
      */
     @Override
     public void eat() {

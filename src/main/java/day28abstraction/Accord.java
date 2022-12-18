@@ -2,15 +2,12 @@ package day28abstraction;
 
 public class Accord implements Engine, Ac, Hood{
 
-
     @Override
     public void digital() {
-
     }
 
     @Override
     public void climate() {
-
     }
 
     @Override

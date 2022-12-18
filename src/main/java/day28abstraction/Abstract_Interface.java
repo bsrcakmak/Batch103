@@ -32,10 +32,4 @@ public class Abstract_Interface {
    2.8 - Interface constructor`a sahip degildir
    2.9 - "Interface" lerde ise variable'lar, public static ve final olmak zorundadir.
          */
-
-
-
-
-
-
 }

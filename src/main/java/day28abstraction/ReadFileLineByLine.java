@@ -16,12 +16,7 @@ import java.io.IOException;
     4) "throw"dan sonra sadece bir tane Exception olabilir,
        "throws"tan sonra ise birden fazla Exception olabilir.
 
-
-
-
-
  */
-
 
 public class ReadFileLineByLine {
     public static void main(String[] args) {
@@ -31,7 +26,6 @@ public class ReadFileLineByLine {
     }
 
     public static void readFileLineByLine(){
-
 
         // Bir dosyayı satır satır okumak için "readLine() " kullanılır.
         // readLine() methodu nu kullanabilmek için BufferedReader objesine ihtiyaç duyarız.
@@ -52,18 +46,5 @@ public class ReadFileLineByLine {
         } catch (IOException e) {
             System.out.println("Okunamayacak character veya characterler var - "+ e.getMessage());
         }
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
 }

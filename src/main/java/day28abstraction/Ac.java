@@ -6,8 +6,4 @@ public interface Ac {
 
     void climate();
 
-
-
-
-
 }
